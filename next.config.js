@@ -10,6 +10,12 @@ const nextConfig = {
             hostname: 'images.unsplash.com',
             port:'',
             pathname:'/**'
+        },
+        {
+            protocol: 'https',
+            hostname: 'openweathermap.org',
+            port:'',
+            pathname:'/img/wn/**'
         }]
     }
 
